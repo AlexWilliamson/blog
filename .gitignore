@@ -33,3 +33,12 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+app/views/testmodels/
+app/controllers/testmodels_controller.rb
+app/helpers/testmodels_helper.rb
+app/models/testmodel.rb
+config/routes.rb
+test/controllers/testmodels_controller_test.rb
+
+/app/assets/builds/*
+!/app/assets/builds/.keep

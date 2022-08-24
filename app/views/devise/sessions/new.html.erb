@@ -1,4 +1,7 @@
-<h2>Log in</h2>
+
+<div class="max-w-md mx-auto bg-white shadow-xl rounded my-8">
+
+<div class="text-center text-gray-600 py-4">Sign in with</div>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="field">
@@ -24,3 +27,5 @@
 <% end %>
 
 <%= render "devise/shared/links" %>
+
+</div>
