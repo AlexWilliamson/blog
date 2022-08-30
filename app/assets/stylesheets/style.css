@@ -1,3 +1,24 @@
 body {
     background-color: #dcdcdc!important;
 }
+
+.deviseContainer {
+    background-color: #ffffff;
+    max-width: 28rem;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+footer {
+    background: #ffffff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
